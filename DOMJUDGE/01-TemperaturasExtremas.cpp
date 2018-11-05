@@ -5,7 +5,7 @@
 #include <fstream>
 #include <vector>
 using namespace std;
-
+//coste lineal O(n)=>O(v.size()) ya que el bucle while solo recorre el vector v una vez de principio a fin
 void numPicosValles(vector<int> v, int n, int&npicos, int&nvalles){
 	//P: 0 < v.Length <= 10000 ^ forall k: 0 <= k < v.Length-1 ==> -50 <= v[k] <= 60
 	//la precondición NO se debe de comprobar en el código

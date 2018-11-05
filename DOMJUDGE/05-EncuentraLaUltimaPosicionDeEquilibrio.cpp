@@ -6,6 +6,8 @@
 #include <vector>
 using namespace std;
 
+//coste lineal O(n)=>O(v.size()) ya que recorre el vector v desde 0 hasta v.size() una vez con el bucle while
+//P:v!=null
 int resolver(vector<int> v){
 	int p = -1;
 	int cero = 0, uno = 0;
